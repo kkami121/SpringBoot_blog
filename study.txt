@@ -1,0 +1,9 @@
+HTTP 요청 방식
+Get : 데이터 요청 - select
+Post : 데이터 추가 - insert
+PUT : 데이터 수정 - update
+DELETE : 데이터 삭제 - delete
+
+seteless : 클라이언트와 서버가 요청과 응답시 게속 연결되지 않은 상태
+- 채팅은 클라이언트를 인증하는 세션이 항상 연결되어 있는 seteful 상태이지만
+- HTTP는 서버에 과부화를 막기 위해 요청과 응답이 끝나면 세션을 종료하는 seteless 방식을 사용한다.
